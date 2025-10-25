@@ -1,4 +1,4 @@
-.god {
+.god:nth-child(3) {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 400px;
 }
@@ -51,4 +51,10 @@
     padding: 20px;
     font-style: italic;
     font-weight: bold;
+}
+.god:last-child {
+    color: aqua;
+}
+.god:first-child {
+    font-size: medium;
 }
